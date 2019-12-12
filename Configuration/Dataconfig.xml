@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration>
+
+	<AutomationType>Mobile</AutomationType> <!--  Web / Mobile  -->
+
+	<!--  URL -->
+	<url>https://www.wikipedia.org</url>
+	
+		
+	<!--   WEB -->
+	<BrowserType>ie</BrowserType>
+	<ChromDriverPath>./Drivers/chromedriver.exe</ChromDriverPath>
+	<FFDriverPath>./Drivers/geckodriver.exe</FFDriverPath>
+	<IEDriverPath>./Drivers/IEDriverServer.exe</IEDriverPath>
+
+	<!--   Mobile -->
+	<UDID>1d1d068e7ce5</UDID>
+	<APP_Package>com.shivgadhia.android.ukMortgageCalc</APP_Package>
+	<APP_Activity>.MainActivity</APP_Activity>
+	<Appium_Server_Adress>http://localhost:4723/wd/hub</Appium_Server_Adress>
+	
+	<!--  REPORTS -->
+ 	<ReportFilePath>C:/Users/USER/Desktop/aoutomationProject/Reports</ReportFilePath>
+ 	<ReportFileName>TestExecution</ReportFileName>
+ 	
+ 	
+	
+</Configuration>
