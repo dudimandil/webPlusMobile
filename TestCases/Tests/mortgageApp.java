@@ -17,9 +17,8 @@ public class mortgageApp extends commonOps
 	@Test
 	public void test01_verifyRepayment() throws IOException, ParserConfigurationException, SAXException, FindFailed
 	{
-		//test
 		mobile_mortgage.calculate("1000", "3", "4");
-		verify.textInElement(mortgageMain.repayment, "Â£30.03");
+		verify.textInElement(mortgageMain.repayment, "£30.03");
 		
 	}
 }
